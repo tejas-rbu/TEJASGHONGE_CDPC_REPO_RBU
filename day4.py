@@ -124,11 +124,19 @@
 ## String Reverse Example
 
 ```python
-a="Dhruv"
+a="tejas"
 b=""
 
 for i in a:
     b=i+b
 
 print(b)
+#reverse string
+name = input("Enter your name: ")
+rev = ""
+
+for ch in name:
+    rev = ch + rev
+
+print("Reverse name:", rev)
 ```
